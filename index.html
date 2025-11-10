@@ -1,8 +1,92 @@
-<html>
-  <head>
-    <title>&nabla; Life - Agentic Intelligence for All </title>
-  </head>
-  <body>
-    <img src="brand_logo.jpeg" />
-  </body>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&nabla; Life - Agentic Intelligence for All</title>
+    <style>
+        /* Load Inter font family from Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+        :root {
+            /* Define the complementing dark background color */
+            --bg-dark: #1E3A4B; 
+            /* Define the primary bright color from the icon */
+            --color-primary: #38A169; 
+            --color-text: #E5E7EB; /* Light gray for readability */
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--color-text);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 400px;
+            padding: 30px;
+            border-radius: 20px;
+            /* Simple overlay effect to make it pop slightly */
+            background: rgba(0, 0, 0, 0.2); 
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+        }
+
+        .icon-placeholder {
+            /* This div simulates the icon's presence and styling */
+            width: 150px;
+            height: 150px;
+            background: linear-gradient(135deg, #10B981, #06B6D4);
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 20px rgba(56, 161, 105, 0.7); /* Glow effect */
+        }
+
+        .icon-text {
+            color: #fff;
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 5px;
+            color: var(--color-primary);
+        }
+
+        p {
+            font-size: 0.9rem;
+            opacity: 0.8;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+      <img src="brand_logo.jpeg" class="rounded-full w-40 h-40 mx-auto mb-5" />
+        <div class="icon-placeholder">
+            <span class="icon-text">&#x2207;</span> <!-- Nabla symbol as text for placeholder -->
+        </div>
+
+        <h1>nabla.life</h1>
+        <p>Agentic Intelligence for All</p>
+
+        <p style="margin-top: 30px; font-size: 0.8rem; opacity: 0.6;">
+            The dark teal background (#1E3A4B) provides optimal contrast for the green/blue icon.
+        </p>
+    </div>
+</body>
 </html>
+
